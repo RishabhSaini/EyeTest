@@ -1,0 +1,126 @@
+
+body {
+    background-color: rgb(200, 255, 255);
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #2584c4;
+    font-weight: 400;
+}
+
+.container{
+    text-align: center;
+    margin-top: 360px;
+}
+
+.btn{
+    border:1px solid #0e74b8;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor : pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: absolute;
+    overflow: hidden;
+}
+
+.btn1{
+    top: 500px;
+    left: 550px;
+    color:#3498db;
+}
+
+.btn1:hover{
+    color:#fff;
+}
+
+.btn::before{
+    content : "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn::before{
+    top:0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover:before{
+    height: 180%;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(133, 200, 200);
+    background: -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-390deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(120deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;
+    background-position: 10%, 30%, 50%, 70%, 90%, 0;
+    background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto;
+    background-attachment: fixed;
+}
+
+.topmenu {
+    padding-left: 600px;
+    position: absolute;
+    color: #b80c8d;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+.rectangle {
+    position: absolute;
+    display: block;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(127, 101, 255, 0.25);
+}
+
+#landingPage {
+    padding-top: 150px;
+    padding-left: 500px;
+}
+
+.stt{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.cont{
+    text-align: center;
+    padding-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%, );
+}
+
+.good{
+    text-align: center;
+    top:500px;
+    font-size: large;    
+}
+
+.hot{
+    text-align: center;
+    padding-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%, );
+}
+
+.hi{
+    color: #a30606;
+    font-size: xx-large; 
+    text-align: center;
+}
